@@ -3,7 +3,9 @@ This code was created to quickly find 3x3 pseudo inverse matrix.
 It is very light and easy to use. You just have to copy the header file into your project.
 
 Two versions of code C and C++ are provided.
+
 C   version: https://github.com/hacking-racoon/fast-pseudo-inverse3-C
+
 C++ version: https://github.com/hacking-racoon/fast-pseudo-inverse3-CPP
 
 Execution time per pinv call is about 0.4 microseconds. Tested on Intel(R) Core(TM) i7-10750H.
