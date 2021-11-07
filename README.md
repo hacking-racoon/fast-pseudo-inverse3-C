@@ -8,6 +8,7 @@ Execution time per pinv call is about 0.4 microseconds. Tested on Intel(R) Core(
 
 # Usage
 First, include the header files!
+
 And use as follows.
 
 ```C
