@@ -1,4 +1,4 @@
-# pseudo-inverse-3
+# fast-pseudo-inverse-3
 This code was created to quickly find 3x3 pseudo inverse matrix.
 It is very light and easy to use. You just have to copy the header file into your project.
 
