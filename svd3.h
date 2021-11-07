@@ -66,7 +66,12 @@ inline float accurateSqrt(float x)
 {
     return x * rsqrt1(x);
 }
-
+inline void swapf(float* X, float* Y) 
+{
+    float Z = *X;
+    *X = *Y;
+    *Y = Z;
+}
 inline void condSwap(_svd_bool c, float* X, float* Y)
 {
     // used in step 2
