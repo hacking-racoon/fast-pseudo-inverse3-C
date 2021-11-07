@@ -1,3 +1,15 @@
+
+/**************************************************************************
+**
+**  pinvTest
+**
+** Test code for quick pseudo inverse operation
+** Implementation by: Hyungjin Cha
+**	 
+**  7 Nov 2021
+**
+**************************************************************************/
+
 #include "pinv.h"
 #include <time.h>
 #include <stdio.h>
@@ -18,7 +30,7 @@ int main() {
         &pinv11, &pinv12, &pinv13, &pinv21, &pinv22, &pinv23, &pinv31, &pinv32, &pinv33);
     end = clock();
 
-    printf("Average pseudo inverse takes %f microseconds \n ", 1e6 * ((double)(end - start) / 1e6 / CLOCKS_PER_SEC));
+    printf("Pseudo inverse takes %f microseconds \n ", 1e6 * ((double)(end - start) / 1e6 / CLOCKS_PER_SEC));
 
     multAB(a11, a12, a13, a21, a22, a23, a31, a32, a33,
         pinv11, pinv12, pinv13, pinv21, pinv22, pinv23, pinv31, pinv32, pinv33,
