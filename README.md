@@ -2,8 +2,6 @@
 This code was created to quickly find 3x3 pseudo inverse matrix.
 It is very light and easy to use. You just have to copy the header file into your project.
 
-I used to the page a lot. --> https://github.com/ericjang/svd3.
-
 Execution time per pinv call is about 0.4 microseconds. Tested on Intel(R) Core(TM) i7-10750H.
 
 # How to use
