@@ -6,7 +6,7 @@ Two versions of code C and C++ are provided.
 
 Execution time per pinv call is about 0.4 microseconds. Tested on Intel(R) Core(TM) i7-10750H.
 
-# How to use
+# 
 First, include the header files!
 And use as follows.
 
